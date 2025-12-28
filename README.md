@@ -1,22 +1,14 @@
 # TCP Port Checker
 
-## Сборка
+## Сборка и запуск
 
-```sh
-make build
-#или сразу с запуском
-make run
-```
+- `make run` - сбилдить и сразу запустить программу
 
-## Запуск с параметром
+- `make build` - файл сбилдится в директорию `./build/`
 
-```sh
-./build/tcp-port-checker -config ./configs/config.toml
-```
+- `./build/tcp-port-checker -config ./configs/config.toml` - запуск с **параметром**
 
 `-config` — путь к конфигурационному файлу (по умолчанию: `./configs/config.toml`)
-
-## Выполнение запроса к прил
 
 ---
 
